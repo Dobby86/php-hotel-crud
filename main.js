@@ -9,9 +9,9 @@ function getAllPagamenti() {
 
             var target = $("#target");
 
-            for (var pagante of data) {
+            for (var pagamenti of data) {
 
-        target.append('<li>' + pagante  + '</li>');
+        target.append('<li>' + pagamenti  + '</li>');
 
             }
         },
